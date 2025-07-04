@@ -1,0 +1,11 @@
+{
+  "name": "ExpressDemo API",
+  "version": "1.0.0",
+  "description": "RESTful API Documentation",
+  "title": "API 文档",
+  "url": "http://localhost:3000",
+  "sampleUrl": false,
+  "template": {
+    "withCompare": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "expressdemo",
+  "version": "1.0.0",
+  "description": "my practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon /app.js",
+    "prd": "cross-env NODE_ENV=production nodemon /app.js",
+    "production": "cross-env NODE_ENV=production pm2 start ./app.js",
+    "doc": "apidoc -i controller/ -o apidoc/"
+  },
+  "author": "qiujiwei",
+  "license": "ISC",
+  "dependencies": {
+    "@bull-board/express": "^6.7.10",
+    "@bull-board/ui": "^6.7.10",
+    "@escook/express-joi": "^1.1.1",
+    "ali-oss": "^6.22.0",
+    "apidoc": "^1.2.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "bull": "^4.16.5",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^17.0.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "express-jwt": "^6.1.1",
+    "express-winston": "^4.2.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.7.0",
+    "node-xlsx": "^0.24.0",
+    "nodemon": "^3.1.9",
+    "openai": "^4.83.0",
+    "redis": "^4.7.0",
+    "uuid": "^11.0.5",
+    "winston": "^3.17.0"
+  }
+}

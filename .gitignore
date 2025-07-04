@@ -1,0 +1,31 @@
+# Node.js依赖
+node_modules/
+
+# 环境变量
+.env*
+
+# 日志文件
+logs/
+*.log
+
+# 临时文件
+.temp/
+temp/
+
+# 上传文件
+uploads/
+
+# 本地IDE配置
+.vscode/
+
+# apidoc自动生成内容
+apidoc/assets/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 其他
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 
