@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=dev nodemon /app.js",
     "prd": "cross-env NODE_ENV=production nodemon /app.js",
-    "production": "cross-env NODE_ENV=production pm2 start ./app.js",
+    "production": "cross-env NODE_ENV=production /www/server/nodejs/v16.9.0/bin/pm2 start ./app.js",
     "doc": "apidoc -i controller/ -o apidoc/"
   },
   "author": "qiujiwei",
