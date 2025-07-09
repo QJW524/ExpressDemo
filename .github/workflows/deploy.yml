@@ -39,5 +39,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /root/projects/express-app
-            npm install --production
+            npm install
             npm run production
