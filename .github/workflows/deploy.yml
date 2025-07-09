@@ -38,6 +38,6 @@ jobs:
           username: ${{ secrets.REMOTE_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /root/projects/express-app
+            cd /www/projects/express-app
             npm install
             npm run production
